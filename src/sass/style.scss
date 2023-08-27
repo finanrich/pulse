@@ -1,4 +1,4 @@
-@import './base/variable';
+@import 'base/variables';
 
 * {
     margin: 0;
@@ -10,10 +10,12 @@
     max-width: 950px;
     margin: 0 auto;
 }
-@import './block/promo';
-@import './block/_header.scss';
-@import './block/button.scss';
-@import './block/_advantages.scss';
-@import './block/title.scss';
-@import './block/consultation.scss';
-@import './block/forms.scss'
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/adventages';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
